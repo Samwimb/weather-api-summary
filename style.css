@@ -1,0 +1,17 @@
+.navbar-light .navbar-brand {
+    color: white;
+    background-color:#0bada6;
+    font-family: courier;
+    /* padding: 0px; */
+    border: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+span {
+    padding-right: 10px;
+    padding-left: 10px;
+}

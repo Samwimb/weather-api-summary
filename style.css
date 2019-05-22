@@ -1,7 +1,9 @@
+body {
+    font-family: courier;
+}
 .navbar-light .navbar-brand {
     color: white;
     background-color:#0bada6;
-    font-family: courier;
 }
 
 .nav-link:hover{
@@ -27,4 +29,31 @@ span {
 
 .navbar-brand {
     margin-left: 1rem;
+}
+
+.col-md-8 {
+    background-color: white;
+    padding: 25px;
+}
+
+h1 {
+    color: #0bada6;
+}
+
+.col-md-3 {
+    background-color: white;
+}
+
+.sidebar {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.summary-text {
+    padding-top: 15px;
 }

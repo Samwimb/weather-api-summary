@@ -25,13 +25,14 @@ span {
 
 .navbar {
     padding: 0rem 0rem;
+    background-color: white;
 }
 
 .navbar-brand {
     margin-left: 1rem;
 }
 
-.col-md-8 {
+.col-md-7 {
     background-color: white;
     padding: 25px;
 }
@@ -40,7 +41,7 @@ h1 {
     color: #0bada6;
 }
 
-.col-md-3 {
+.col-md-4 {
     background-color: white;
 }
 
@@ -55,5 +56,30 @@ h1 {
 }
 
 .summary-text {
-    padding-top: 15px;
+    font-size: 15px;
+}
+
+.col-md-7 img {
+    max-width:35%;
+    height:auto;
+    padding-top: 25px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.col-md-7 h1 {
+    font-size: 28px;
+}
+
+.sidebar-image {
+    max-width: 100%;
+    height:auto;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #0bada6;
+    }
 }

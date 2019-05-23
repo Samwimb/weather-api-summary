@@ -13,39 +13,78 @@
 </head>
 
 <body>
+    <div class="navigation">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <span class="navbar-brand">
+            <a class="navbar-brand" href="https://samwimb.github.io/weather-api-summary/home.html">Latitude</a>
+            </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-    <span class="navbar-brand">
-    <a class="navbar-brand" href="https://samwimb.github.io/weather-api-summary/home.html">Latitude</a>
-    </span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">    
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plots
-                </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-cloud.html">Cloudiness</a>
-                        <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-wind.html">Wind Speed</a>
-                    </div>
-            </li>  
-            <li class="nav-item">
-            <a class="nav-link" href="https://samwimb.github.io/weather-api-summary/comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="https://samwimb.github.io/weather-api-summary/data.html">Data</a>
-            </li>
-        </ul>
-    </ul>    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">    
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-temp.html">Max Temperature</a>
+                                <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-cloud.html">Cloudiness</a>
+                                <a class="dropdown-item" href="https://samwimb.github.io/weather-api-summary/lat-vs-wind.html">Wind Speed</a>
+                            </div>
+                    </li>  
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://samwimb.github.io/weather-api-summary/comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://samwimb.github.io/weather-api-summary/data.html">Data</a>
+                    </li>
+                </ul>
+            </ul>    
+            </div>
+        </nav>
     </div>
-</nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-7">
+                <h1><strong>Summary: Latitude Vs. X</strong></h1>
+                <hr>
+                <p>
+                    <img style="float: left;" src="https://github.com/Samwimb/api-homework/blob/master/Instructions/output_data/Lat_vs_temp.png?raw=true alt=latitude_vs_temperature">
+                <p class=summary-text>
+                    The purpose of this project was toanalyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to asssemble a dataset on over 500 cities.
+                </p>
+                <p class=summary-text>
+                    After assembling the dataset, we used matplotlib to plot various aspects of the weather vs. latitude. Factors we looked included: temeprature, cloudiness, wind speed, and humidity. This site provides source data and visualizations created as part of this analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-4 offset-md-1">
+                    <h1 class="sidebar"><strong>Visualizations</strong></h1>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6">
+                                <img class="sidebar-image" src="https://github.com/Samwimb/api-homework/blob/master/Instructions/output_data/Lat_vs_temp.png?raw=true alt=latitude_vs_temperature">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6">
+                                <img class="sidebar-image" src="https://github.com/Samwimb/api-homework/blob/master/Instructions/output_data/Lat_vs_temp.png?raw=true alt=latitude_vs_temperature">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-6 col-sm-6 col-md-6">
+                            <img class="sidebar-image" src="https://github.com/Samwimb/api-homework/blob/master/Instructions/output_data/Lat_vs_temp.png?raw=true alt=latitude_vs_temperature">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6">
+                                <img class="sidebar-image" src="https://github.com/Samwimb/api-homework/blob/master/Instructions/output_data/Lat_vs_temp.png?raw=true alt=latitude_vs_temperature">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

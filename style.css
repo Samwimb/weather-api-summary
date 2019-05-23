@@ -59,7 +59,7 @@ h1 {
     font-size: 12px;
 }
 
-.col-md-7 img {
+.home-main-image {
     max-width:35%;
     height:auto;
     padding-top: 25px;
@@ -143,6 +143,15 @@ tr:hover {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.main-image {
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 @media (min-width:768px) {
     .comparison-stacked {

@@ -88,6 +88,7 @@ p img:hover {
 
 .comparison {
     background-color: white;
+    padding: 20px;
 }
 
 p.comparison {
@@ -111,6 +112,36 @@ p.comparison {
 
 .comparison-image:hover {
     border: 1px solid #0bada6;
+}
+
+.data-table {
+    border: 1px solid black;
+    font-size: 90%;
+}
+table.data-table {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+th {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 @media (min-width:768px) {

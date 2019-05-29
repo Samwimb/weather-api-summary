@@ -118,6 +118,7 @@ p.comparison {
     border: 1px solid black;
     font-size: 90%;
 }
+
 table.data-table {
     margin-left:auto; 
     margin-right:auto;
@@ -125,14 +126,14 @@ table.data-table {
 
 th {
     padding: 5px;
-    text-align: left;
+    /* text-align: left; */
     border-bottom: 1px solid #ddd;
     background-color: #f2f2f2;
 }
 
 td {
     padding: 5px;
-    text-align: right;
+    /* text-align: right; */
     border-bottom: 1px solid #ddd;
 }
 
